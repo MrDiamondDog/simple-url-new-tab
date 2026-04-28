@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab Options</title>
+
+    <style>
+        body {
+            background-color: #000;
+            width: 200px;
+            height: 200px;
+            color: white;
+            overflow: hidden;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        p {
+            margin: 1px;
+        }
+
+        input {
+            outline: none;
+            border: 2px solid #0f0f0f;
+            background-color: #0c0c0c;
+            padding: 8px;
+            color: white;
+        }
+
+        button {
+            outline: none;
+            border: 2px solid #0f0f0f;
+            background-color: #0c0c0c;
+            padding: 8px;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>URL to load on new tab</p>
+        <input />
+        <button>save</button>
+        <p style="display: none" id="success">Success!</p>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>
