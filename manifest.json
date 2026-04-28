@@ -3,6 +3,7 @@
     "name": "Custom URL New Tab",
     "version": "1.0",
     "description": "Extremely simple new tab extension that just renders the given page.",
+    "homepage_url": "https://github.com/MrDiamondDog/simple-url-new-tab",
     "browser_specific_settings": {
         "gecko": {
             "id": "urlnewtab@mozilla.org",
